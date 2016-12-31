@@ -50,7 +50,7 @@ function sendMessageToBocco(posttext){//Boccoにメッセージを送信
   };
   var response = UrlFetchApp.fetch(URL,options);
   var json = JSON.parse(response);
-  if(json[code]=="401001"){
+  if(json["code"]=="401001"){
     getAccessKeyOfBocco();
     getRoomIDOfBocco();
     sendMessageToBocco(posttext);
