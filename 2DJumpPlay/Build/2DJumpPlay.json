@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "2DJumpPlay.data.unityweb",
+"asmCodeUrl": "2DJumpPlay.asm.code.unityweb",
+"asmMemoryUrl": "2DJumpPlay.asm.memory.unityweb",
+"asmFrameworkUrl": "2DJumpPlay.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
