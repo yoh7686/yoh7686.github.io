@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "PhysIPhone.data.unityweb",
+"asmCodeUrl": "PhysIPhone.asm.code.unityweb",
+"asmMemoryUrl": "PhysIPhone.asm.memory.unityweb",
+"asmFrameworkUrl": "PhysIPhone.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
