@@ -1,0 +1,13 @@
+{
+"companyName": "Yanace",
+"productName": "2D Truck Race",
+"dataUrl": "2DTruckRace.data.unityweb",
+"asmCodeUrl": "2DTruckRace.asm.code.unityweb",
+"asmMemoryUrl": "2DTruckRace.asm.memory.unityweb",
+"asmFrameworkUrl": "2DTruckRace.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
