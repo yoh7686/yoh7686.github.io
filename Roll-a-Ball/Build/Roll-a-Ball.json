@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Roll-A-Ball",
+"dataUrl": "Roll-a-Ball.data.unityweb",
+"wasmCodeUrl": "Roll-a-Ball.wasm.code.unityweb",
+"wasmFrameworkUrl": "Roll-a-Ball.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
