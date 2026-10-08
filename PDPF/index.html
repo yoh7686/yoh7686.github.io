@@ -34,16 +34,19 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/PDPF.loader.js";
+      // Every file asked for with the build's version, so a phone never runs new data on old
+      // code left in its cache (an iPhone showed a crash after an update: 10-08).
+      var v = "?v=" + encodeURIComponent("2026.10.08.1130");
+      var loaderUrl = buildUrl + "/PDPF.loader.js" + v;
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/PDPF.data.unityweb",
-        frameworkUrl: buildUrl + "/PDPF.framework.js.unityweb",
-        codeUrl: buildUrl + "/PDPF.wasm.unityweb",
+        dataUrl: buildUrl + "/PDPF.data.unityweb" + v,
+        frameworkUrl: buildUrl + "/PDPF.framework.js.unityweb" + v,
+        codeUrl: buildUrl + "/PDPF.wasm.unityweb" + v,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "PerfectDayForFactorization",
-        productVersion: "2026.10.08.1116",
+        productVersion: "2026.10.08.1130",
         showBanner: unityShowBanner,
         // Phones draw at up to twice the CSS pixels, not three times: sharp enough, and far
         // lighter on an iPhone.
