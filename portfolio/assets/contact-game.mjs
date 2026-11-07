@@ -19,7 +19,7 @@ function effect(kind){
  if(kind==='success'){[523.25,659.25,783.99,1046.5].forEach((f,i)=>tone(f,t+i*.12,.28,.045));tone(523.25,t+.48,.5,.025);tone(783.99,t+.48,.5,.025);}
 }
 function scheduleHint(){
- clearTimeout(idleTimer);const token=generation;
+ clearTimeout(idleTimer);status.textContent='';const token=generation;
  if(phase==='opening'||document.hidden)return;
  idleTimer=setTimeout(()=>{if(token!==generation||document.hidden)return;status.textContent=phase==='cleared'&&destination?'クリックして先へ進もう':phase==='idle'?'道はこの絵の中にある':status.textContent;},phase==='cleared'?8000:12000);
 }
@@ -42,31 +42,31 @@ function choose(next){
  item.style.transition='';item.className='world-item';item.innerHTML=art(index);item.setAttribute('aria-label',scenes[index].item+'を持つ');item.setAttribute('aria-pressed','false');
  drop.setAttribute('aria-label',scenes[index].target+'に置く');place(item,scenes[index].start);place(drop,scenes[index].drop);place(entrance,scenes[index].entrance);
  
- status.textContent='気になるものを、少し動かしてみてください。';
+ status.textContent='';
  scheduleHint();
 }
-function select(){if(phase!=='idle')return;if(!selected)effect('pick');selected=true;item.classList.add('selected');item.setAttribute('aria-pressed','true');world.classList.add('selecting');status.textContent=scenes[index].item+'を持ちました。置き場所を選んでください。';}
+function select(){if(phase!=='idle')return;if(!selected)effect('pick');selected=true;item.classList.add('selected');item.setAttribute('aria-pressed','true');world.classList.add('selecting');status.textContent='';}
 async function loadForm(token){
  entrance.disabled=true;
  try{
   const response=await fetch('/portfolio/assets/contact-config.json',{cache:'no-store'});if(!response.ok)throw new Error('Unavailable');
   const url=decodeDestination(await response.json());if(token!==generation)return;
-  destination=url;entrance.disabled=false;status.textContent=scenes[index].result;entrance.focus({preventScroll:true});scheduleHint();
+  destination=url;entrance.disabled=false;status.textContent='';entrance.focus({preventScroll:true});scheduleHint();
  }catch{if(token!==generation)return;destination=null;entrance.disabled=false;status.textContent='入口の準備ができませんでした。もう一度お試しください。';}
 }
 function solve(){
  if(phase!=='idle')return;clearTimeout(idleTimer);effect('place');phase='opening';selected=false;const token=generation;
  item.disabled=true;item.style.transition='left .22s ease, top .22s ease';place(item,scenes[index].drop.slice(0,2));drop.hidden=true;world.classList.remove('selecting');
- status.textContent=index===1?'草が燃え、何かが見えてきました。':'奥で、小さな音がしました。';
+ status.textContent='';
  if(index===1)world.classList.add('burning');
  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
  timer=setTimeout(()=>{if(token!==generation)return;item.hidden=true;world.classList.add('revealed');world.classList.remove('burning');phase='cleared';effect('success');entrance.hidden=false;loadForm(token);},reduce?0:index===1?1800:300);
 }
 item.addEventListener('click',()=>{if(suppressClick){suppressClick=false;return;}select();});
-drop.addEventListener('click',()=>{if(selected)solve();else status.textContent='動かすものを先に選んでください。';});
+drop.addEventListener('click',()=>{if(selected)solve();else status.textContent='';});
 item.addEventListener('pointerdown',e=>{if(phase!=='idle'||e.button!==0)return;drag={id:e.pointerId,x:e.clientX,y:e.clientY,moved:false};item.setPointerCapture(e.pointerId);});
 item.addEventListener('pointermove',e=>{if(!drag||e.pointerId!==drag.id)return;if(Math.hypot(e.clientX-drag.x,e.clientY-drag.y)>5){drag.moved=true;select();item.classList.add('dragging');const r=world.getBoundingClientRect();place(item,[(e.clientX-r.left)/r.width*100,(e.clientY-r.top)/r.height*100]);}});
-item.addEventListener('pointerup',e=>{if(!drag||e.pointerId!==drag.id)return;const moved=drag.moved;drag=null;item.classList.remove('dragging');if(moved){suppressClick=true;const r=world.getBoundingClientRect();if(inside((e.clientX-r.left)/r.width*100,(e.clientY-r.top)/r.height*100,scenes[index].drop))solve();else{place(item,scenes[index].start);status.textContent='そこではなさそうです。別の場所を試してみてください。';}}});
+item.addEventListener('pointerup',e=>{if(!drag||e.pointerId!==drag.id)return;const moved=drag.moved;drag=null;item.classList.remove('dragging');if(moved){suppressClick=true;const r=world.getBoundingClientRect();if(inside((e.clientX-r.left)/r.width*100,(e.clientY-r.top)/r.height*100,scenes[index].drop))solve();else{place(item,scenes[index].start);status.textContent='';}}});
 item.addEventListener('pointercancel',()=>{drag=null;item.classList.remove('dragging');place(item,scenes[index].start);});
 function enter(){if(phase!=='cleared')return;if(destination)location.assign(destination);else loadForm(generation);}
 entrance.addEventListener('click',enter);
