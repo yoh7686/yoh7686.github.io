@@ -49,7 +49,7 @@ for block in (ROOT/'portfolio/content/works.md').read_text().split('\n## ')[1:]:
  fields=dict(re.findall(r'^- ([a-z_]+): (.*)$',block,re.M))
  if fields.get('id') in ['work-unityroom-magikaruta','work-unityroom-ezkaruta']:
   assert fields['category']=='研究作品'
- if fields.get('category')=='研究作品':assert fields.get('url'),fields.get('id')
+ assert fields.get('source_label')!='本人の公開業績表（展示・イベント）',fields.get('id')
  if fields.get('video_url'):assert fields['video_url'] in docs['works.html'].links
 print('PASS: research destinations, book links, research work categories and video links')
 

@@ -123,32 +123,24 @@
 - id: achievement-xi-009
 - category: 研究作品
 - date: 2015
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人の公開業績表（展示・イベント）
 
 ## Silent Rugby
 
 - id: achievement-xi-010
 - category: 研究作品
 - date: 2015
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人の公開業績表（展示・イベント）
 
 ## 超会議ジャンプ
 
 - id: achievement-xi-011
 - category: 研究作品
 - date: 2014
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人の公開業績表（展示・イベント）
 
 ## Hiyoshi Jump
 
 - id: achievement-xi-012
 - category: 研究作品
 - date: 2014
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人の公開業績表（展示・イベント）
 - video_url: https://youtu.be/SQ2tCMXOd_w
 - image: https://i.ytimg.com/vi/SQ2tCMXOd_w/hqdefault.jpg
 - image_fit: contain
