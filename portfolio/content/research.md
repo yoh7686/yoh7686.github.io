@@ -516,8 +516,8 @@
 - id: achievement-xii-002
 - category: 展示・イベント
 - date: 2016
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://superhuman-sports.org/games/
+- source_label: 大会公式記録
 
 ## Hover Crosse，超福祉展 (11/2015)
 
@@ -660,8 +660,8 @@
 - id: achievement-xiv-002
 - category: 審査・委員・アドバイザー歴
 - date: 2016
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://www.ipa.go.jp/jinzai/mitou/it/2020/t6hhco000001199k-att/zentaihyoka2020-shudo.pdf
+- source_label: IPA成果評価報告書（2020年度の参加記録）
 
 ## 科学技術・学術政策研究所 科学技術動向研究センター 専門調査員 (2016-)
 

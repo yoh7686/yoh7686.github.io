@@ -320,3 +320,16 @@
 - description: 競技かるたの駆け引きを手軽に楽しむカードゲームの英語版。
 - credit: unityroom
 
+
+
+## ゼビウス vs パックマン
+
+- id: work-xevious-vs-pacman
+- category: 個人制作
+- date: 2015
+- url: https://youtu.be/52QenP5TKfw
+- source_label: 紹介動画を見る
+- image: https://i.ytimg.com/vi/52QenP5TKfw/hqdefault.jpg
+- description: 撃てば撃つほど自分が危険になるシューティングゲーム。
+- credit: 紹介動画：2015年11月9日公開 / Yohei Yanase
+- date_source: 紹介動画の公開年（制作日の確定ではない）
