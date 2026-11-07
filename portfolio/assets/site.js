@@ -20,3 +20,6 @@ function revealAnchor(){
 }
 window.addEventListener('hashchange',revealAnchor); if(location.hash)revealAnchor();
 document.querySelectorAll('.thumb img').forEach(img=>img.addEventListener('error',()=>{img.hidden=true;const fallback=document.createElement('span');fallback.textContent=img.alt;fallback.style.cssText='display:block;padding:25px;font-size:13px';img.parentElement.prepend(fallback)},{once:true}));
+// Keep links from the former single-page activity archive working.
+const routeData=document.querySelector('#activity-routes');
+if(routeData&&location.hash){const routes=JSON.parse(routeData.textContent);const destination=routes[decodeURIComponent(location.hash.slice(1))];if(destination?.startsWith('/activities/'))location.replace(destination);}

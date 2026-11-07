@@ -1,7 +1,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import re
+import re,runpy
 ROOT=Path(__file__).resolve().parent.parent
 class Doc(HTMLParser):
  def __init__(self):super().__init__();self.ids=[];self.links=[];self.images=[]
@@ -11,10 +11,10 @@ class Doc(HTMLParser):
   if tag=='a' and 'href' in a:self.links.append(a['href'])
   if tag=='img':self.images.append(a)
 docs={}
-for path in ROOT.glob('*.html'):
- text=path.read_text();d=Doc();d.feed(text);docs[path.name]=d
+for path in list(ROOT.glob('*.html'))+list((ROOT/'activities').glob('*.html')):
+ text=path.read_text();d=Doc();d.feed(text);docs[str(path.relative_to(ROOT))]=d
  assert len(d.ids)==len(set(d.ids)),('duplicate IDs',path.name)
- for bad in ['mail.google.com','drive.google.com','docs.google.com','review-private','非公開照合','依頼元','掲載判定','実施未確認','スプレッドシート No.']:
+ for bad in ['mail.google.com','drive.google.com','docs.google.com','review-private','非公開照合','依頼元','掲載判定','実施未確認','スプレッドシート No.','会社での制作']:
   assert bad not in text,(path.name,bad)
  assert 'lang="ja"' in text and 'name="viewport"' in text
  assert all(x.get('alt') for x in d.images)
@@ -23,7 +23,18 @@ for name,d in docs.items():
   p=urlsplit(u)
   if p.scheme or p.netloc:continue
   target=p.path.lstrip('/') or (name if p.fragment else 'index.html')
-  if target.endswith('/'):continue # existing WebGL paths are preserved in the remote base tree
   assert (ROOT/target).exists(),(name,u)
   if p.fragment:assert unquote(p.fragment) in docs[target].ids,(name,u,'missing anchor')
-print(f'PASS: {len(docs)} pages; internal routes and anchors; unique IDs; image alternatives; no private fields')
+# Every source record has exactly one year-page entry; no planned record is exported.
+s=(ROOT/'portfolio/content/activities.md').read_text();ids=re.findall(r'^- id: (.+)$',s,re.M)
+assert len(ids)==599
+rendered=[i for name,d in docs.items() if name.startswith('activities/') for i in d.ids if i.startswith('event-')]
+assert sorted(ids)==sorted(rendered)
+assert not re.search(r'^- status: 予定$',s,re.M)
+for dt in re.findall(r'^- date: (\d{4}-\d{2}-\d{2})$',s,re.M):assert dt<='2026-11-07'
+v=(ROOT/'portfolio/content/videos.md').read_text()
+assert len(re.findall(r'^- published_at: ',v,re.M))==31
+assert len(re.findall(r'^- date: \d{4}-\d{2}-\d{2}$',v,re.M))==31
+home=(ROOT/'index.html').read_text()
+for required in ['狭霧の國','魔人と失われた王国','NA:I','The Bubble Diver','Qxb_vffcn0A','F-SMEYVXOvU','シニア・アドボケイト','特任准教授','エンタテインメント創造研究教育センター','profile.jpg']:assert required in home,required
+print(f'PASS: {len(docs)} pages; routes and anchors; 599 activity records exactly once; no planned or excluded project entries; 31 video dates; selected works and affiliations')

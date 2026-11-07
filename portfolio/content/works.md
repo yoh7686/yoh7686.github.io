@@ -1,119 +1,250 @@
 # works
 
-## Unlimited Corridor (2016) ― 制作チーム（松本啓吾，鳴海拓志，簗瀬洋平，伴由貴，谷川智洋，広瀬通孝ほか）
+## Unlimited Corridor
 
 - id: achievement-xi-001
 - category: 研究作品
+- date: 2016
+- description: 制作チーム（松本啓吾，鳴海拓志，簗瀬洋平，伴由貴，谷川智洋，広瀬通孝ほか）
+- featured: true
+- image: https://i.ytimg.com/vi/THk92rev1VA/hqdefault.jpg
+- url: https://youtu.be/THk92rev1VA
+- credit: 研究紹介動画 / Keigo Matsumoto
 
-## D-Ball (2017)
+## D-Ball
 
 - id: achievement-xi-002
 - category: 研究作品
+- date: 2017
 
-## Hover Crosse (2015)
+## Hover Crosse
 
 - id: achievement-xi-003
 - category: 研究作品
+- date: 2015
 
-## StratoJump (2014)
+## StratoJump
 
 - id: achievement-xi-004
 - category: 研究作品
+- date: 2014
 
-## オーガナイズドゲーム (2014, 2015, 2016) ― 学会そのものをゲーム化したイベント型作品
+## オーガナイズドゲーム
 
 - id: achievement-xi-005
 - category: 研究作品
+- date: 2016
+- description: 学会そのものをゲーム化したイベント型作品
 
-## 誰でも神プレイできるジャンプアクションゲーム (2015)
+## 誰でも神プレイできるジャンプアクションゲーム
 
 - id: achievement-xi-006
 - category: 研究作品
+- date: 2015
 
-## 誰でも神プレイできるシューティングゲーム (2013)
+## 誰でも神プレイできるシューティングゲーム
 
 - id: achievement-xi-007
 - category: 研究作品
+- date: 2013
 
-## Money Heroes (2015, Hack for Money)
+## Money Heroes
 
 - id: achievement-xi-008
 - category: 個人制作
+- date: 2015
 
-## 研究者人狼 (2015)
+## 研究者人狼
 
 - id: achievement-xi-009
 - category: 研究作品
+- date: 2015
 
-## Silent Rugby (2015)
+## Silent Rugby
 
 - id: achievement-xi-010
 - category: 研究作品
+- date: 2015
 
-## 超会議ジャンプ (2014)
+## 超会議ジャンプ
 
 - id: achievement-xi-011
 - category: 研究作品
+- date: 2014
 
-## Hiyoshi Jump (2014)
+## Hiyoshi Jump
 
 - id: achievement-xi-012
 - category: 研究作品
+- date: 2014
 
-## 『狭霧の國』（LosGatos Works，2019）― 担当: 脚本協力
+## 狭霧の國
 
 - id: achievement-xi-013
-- category: 会社での制作
-- url: https://newscast.jp/news/6500820
+- category: 商業作品
+- url: https://youtu.be/Vv47OcxLQoM
+- date: 2019
+- description: 担当: 脚本協力
+- featured: true
+- image: https://i.ytimg.com/vi/Vv47OcxLQoM/hqdefault.jpg
+- credit: 公式劇場予告編 / LosGatosWorks
 
-## 『ワンダと巨像』（PlayStation 2, 2005）― Special Thanks
+## ワンダと巨像
 
 - id: achievement-xi-014
-- category: 会社での制作
-- url: https://www.videogamemanual.com/PS2/Shadow%20of%20the%20Colossus%20%28USA%29.pdf
+- category: 商業作品
+- url: https://youtu.be/Bj-v2ZvYP7c
+- date: 2005
+- description: Special Thanks
+- image: https://i.ytimg.com/vi/Bj-v2ZvYP7c/hqdefault.jpg
+- credit: 公式プロモーションビデオ / PlayStation Japan
 
-## 『魔人と失われた王国』（2010）― ゲームデザイナー
+## 魔人と失われた王国
 
 - id: achievement-xi-015
-- category: 会社での制作
+- category: 商業作品
+- date: 2010
+- description: ゲームデザイナー
+- featured: true
+- image: https://i.ytimg.com/vi/iizuEKdBvAw/hqdefault.jpg
+- url: https://youtu.be/iizuEKdBvAw
+- credit: 公式予告編 / BANDAI NAMCO Europe
 
-## 『グローランサーVI』（2007）― ダンジョンデザイン
+## グローランサーVI
 
 - id: achievement-xi-016
-- category: 会社での制作
+- category: 商業作品
+- date: 2007
+- description: ダンジョンデザイン
 
-## 『FolksSoul -失われた伝承-』（2007）― シナリオエディター
+## FolksSoul -失われた伝承-
 
 - id: achievement-xi-017
-- category: 会社での制作
+- category: 商業作品
+- date: 2007
+- description: シナリオエディター
 
-## 『グローランサーV ジェネレーションズ』（2006）― シナリオ
+## グローランサーV ジェネレーションズ
 
 - id: achievement-xi-018
-- category: 会社での制作
+- category: 商業作品
+- date: 2006
+- description: シナリオ
 
-## 『グローランサー』（1999）― ディレクターアシスト
+## グローランサー
 
 - id: achievement-xi-019
-- category: 会社での制作
+- category: 商業作品
+- date: 1999
+- description: ディレクターアシスト
 
-## 『ラングリッサー IV&V ファイナルエディション』（1999）― サンクス
+## ラングリッサー IV&V ファイナルエディション
 
 - id: achievement-xi-020
-- category: 会社での制作
+- category: 商業作品
+- date: 1999
+- description: サンクス
 
-## 『ラングリッサーV 〜The End of Legend〜』（1998）― スペシャルサンクス
+## ラングリッサーV 〜The End of Legend〜
 
 - id: achievement-xi-021
-- category: 会社での制作
+- category: 商業作品
+- date: 1998
+- description: スペシャルサンクス
 
-## 『ラングリッサーIV』（1997）― サンクス
+## ラングリッサーIV
 
 - id: achievement-xi-022
-- category: 会社での制作
+- category: 商業作品
+- date: 1997
+- description: サンクス
 
-## 『デア ラングリッサー』（1996）― スペシャルサンクス
+## デア ラングリッサー
 
 - id: achievement-xi-023
-- category: 会社での制作
+- category: 商業作品
+- date: 1996
+- description: スペシャルサンクス
+
+## NA:I
+
+- id: work-unityroom-nai_adventure
+- date: 2024-12-29
+- category: 個人制作
+- url: https://unityroom.com/games/nai_adventure
+- image: https://os-worker.unityroom.com/unityroom_production/icon/126923/icon_20250101_183200.gif?h=1735723920
+- description: 秘密組織Nのエージェントの中から裏切り者を探せ！
+- credit: unityroom
+- featured: true
+
+## Udon Shoot
+
+- id: work-unityroom-udonshoot
+- date: 2026-04-27
+- category: 個人制作
+- url: https://unityroom.com/games/udonshoot
+- image: https://os-worker.unityroom.com/unityroom_production/icon/291376/icon_20260427_204310.png?h=1777290190
+- description: うどんを投げて地球を守れ！
+- credit: unityroom
+
+## マジカルタ 〜トランプを使って遊べる簡易版競技かるた〜
+
+- id: work-unityroom-magikaruta
+- date: 2024-12-14
+- category: 個人制作
+- url: https://unityroom.com/games/magikaruta
+- image: https://os-worker.unityroom.com/unityroom_production/icon/123643/icon_20241229_155257.png?h=1735455177
+- description: マジカルタは競技かるたのかけひきを簡単に楽しむためのゲームです。
+- credit: unityroom
+
+## The Bubble Diver: Submarine Defender
+
+- id: work-unityroom-bubblediver
+- date: 2025-01-26
+- category: 個人制作
+- url: https://unityroom.com/games/bubblediver
+- image: https://os-worker.unityroom.com/unityroom_production/icon/135575/icon_20250128_152407.png?h=1738045447
+- description: 酸素を節約しながら泡を射出してで潜水艇を守れ！
+- credit: unityroom
+- featured: true
+
+## ワンモアじゃんけん ~激闘！ 闇の三じゃん士~
+
+- id: work-unityroom-onemorejanken
+- date: 2025-12-27
+- category: 個人制作
+- url: https://unityroom.com/games/onemorejanken
+- image: https://os-worker.unityroom.com/unityroom_production/icon/245145/icon_20251229_201238.gif?h=1767006758
+- description: 特殊な手を一つ加えて対戦する、戦略的じゃんけんゲーム。
+- credit: unityroom
+
+## 百目くん アイを取り戻せ！
+
+- id: work-unityroom-hyakumekun
+- date: 2025-04-19
+- category: 個人制作
+- url: https://unityroom.com/games/hyakumekun
+- image: https://os-worker.unityroom.com/unityroom_production/icon/161763/icon_20250419_171338.png?h=1745050418
+- description: 真っ暗闇でお気に入りの眼をなくしてしまった百目くんが残った眼を投げてなくした眼を探すゲームです。
+- credit: unityroom
+
+## UdoNauts
+
+- id: work-unityroom-udonauts
+- date: 2025-04-27
+- category: 個人制作
+- url: https://unityroom.com/games/udonauts
+- image: https://os-worker.unityroom.com/unityroom_production/icon/166035/icon_20250427_155408.png?h=1745736848
+- description: 伸縮ワイヤーを使って移動する、高速スイングアクション。
+- credit: unityroom
+
+## EzKaruta
+
+- id: work-unityroom-ezkaruta
+- date: 2025-08-25
+- category: 個人制作
+- url: https://unityroom.com/games/ezkaruta
+- image: https://os-worker.unityroom.com/unityroom_production/icon/204797/icon_20250825_215903.png?h=1756126743
+- description: 競技かるたの駆け引きを手軽に楽しむカードゲームの英語版。
+- credit: unityroom
 
