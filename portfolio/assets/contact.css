@@ -15,3 +15,6 @@
 @keyframes fire-glow{to{opacity:.45}}
 @keyframes embers{from{opacity:1;transform:translateY(0)}to{opacity:0;transform:translate(8px,-65px)}}
 @media(prefers-reduced-motion:reduce){.world-fire i,.world-fire:before,.world-fire:after{animation:none}}
+
+/* The book uses a viewBox crop of the shared scene atlas. */
+.world[data-world="2"] .world-item svg { overflow: hidden; }
