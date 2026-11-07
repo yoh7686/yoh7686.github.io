@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build the portfolio from public Markdown. Python 3.10+, standard library only."""
 from pathlib import Path
 from html import escape
@@ -160,7 +161,7 @@ for i,cat in enumerate(['商業作品','個人制作','研究作品']):
 body+='<p class="muted">各分類内で新しい順に掲載しています。画像は作品の紹介動画・公開ページのサムネイルです。作品・画像の権利は各権利者に帰属します。</p>'
 page('works','作品',body,'商業作品、個人制作、研究作品。商業作品には担当を記載しています。')
 other_roles=''.join('<li>'+esc(r.strip())+'</li>' for r in P.get('other_roles','').split('|') if r.strip())
-body=f'<div class="prose"><div class="profile-heading"><img class="portrait" src="{esc(P["portrait"])}" alt="𥱋瀨洋平のプロフィール写真" width="112" height="112"><div><h2 class="profile-name">{esc(P["title"])}</h2><p>Yohei Yanase</p></div></div><h2>所属・役職</h2>{roles()}<ul class="other-roles">{other_roles}</ul><h2>略歴</h2><p>{esc(P["biography"])}</p><p>商業作品では「魔人と失われた王国」のゲームデザイン、「狭霧の國」の脚本協力などを担当。個人制作と並行して、ヒューマン・コンピュータ・インタラクション（HCI）、ゲームデザイン、エンタテインメントコンピューティングの研究に取り組む。</p><p>2017年、制作に参加した「Unlimited Corridor」が第20回文化庁メディア芸術祭エンターテインメント部門優秀賞を受賞。</p><h2>研究・教育活動</h2><p>{esc(P["university"])}{esc(P["department"])}{esc(P["university_role"])}。ゲーム開発・ナラティブデザインに関する教育・研究に従事。講演・講義のほか、メンター、審査員としての活動を行っている。</p><h2>表記について</h2><p>氏名の文字が正しく表示されない場合は「簗瀬 洋平」をお使いください。</p><h2 id="contact">Contact / Links</h2><div class="profile-links">{link(P["github"],"GitHub ↗")}{link("https://learning.unity3d.jp/speaker/yohei-yanase/","Unity Learning Materials ↗")}{link(P["university_source"],"電気通信大学 CEREC ↗")}</div><p><a href="/contact.html">お問い合わせ →</a></p></div>'
+body=f'<div class="prose"><div class="profile-heading"><img class="portrait" src="{esc(P["portrait"])}" alt="𥱋瀨洋平のプロフィール写真" width="112" height="112"><div><h2 class="profile-name">{esc(P["title"])}</h2><p>Yohei Yanase</p></div></div><h2>所属・役職</h2>{roles()}<ul class="other-roles">{other_roles}</ul><h2>略歴</h2><p>{esc(P["biography"])}</p><p>商業作品では「魔人と失われた王国」のゲームデザイン、「狭霧の國」の脚本協力などを担当。個人制作と並行して、ヒューマン・コンピュータ・インタラクション（HCI）、ゲームデザイン、エンタテインメントコンピューティングの研究に取り組む。</p><p>2017年、制作に参加した「Unlimited Corridor」が第20回文化庁メディア芸術祭エンターテインメント部門優秀賞を受賞。</p><h2>研究・教育活動</h2><p>{esc(P["university"])}{esc(P["department"])}{esc(P["university_role"])}。ゲーム開発・ナラティブデザインに関する教育・研究に従事。講演・講義のほか、メンター、審査員としての活動を行っている。</p><h2>表記について</h2><p>氏名の文字が正しく表示されない場合は「簗瀬 洋平」をお使いください。</p><h2 id="contact">Contact / Links</h2><div class="profile-links">{link(P["github"],"GitHub ↗")}{link("https://learning.unity3d.jp/speaker/yohei-yanase/","Unity Learning Materials ↗")}{link(P["university_source"],"電気通信大学 CEREC ↗")}</div><p>Unityに関するお問い合わせは<a href="https://create.unity.com/contact-unity-expert-jp">Unity公式窓口 ↗</a>へ。講義・講演のご依頼、ゲームデザインやシナリオに関するご相談は<a href="/contact.html">お問い合わせページ →</a>からお送りください。</p></div>'
 page('profile','プロフィール',body)
 page('contact','Contact',(CONTENT/'contact.html').read_text(), 'お問い合わせ')
 page('404','ページが見つかりません','<p>URLが変更されたか、ページが存在しません。</p><p><a href="/">トップページへ戻る →</a></p>')
