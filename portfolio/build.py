@@ -101,7 +101,10 @@ for r in A:
  elif '発表' in role or role=='LT' or role.startswith('LT('):verb='で発表しました'
  elif any(x in role for x in ['講演','セミナー','トーク','プレゼン','セッション','登壇']):verb='で講演しました'
  else:verb='で'+role+'を担当しました'
- news.append(dict(id='news-'+r['id'],date=date(r),kind='活動',title=r['title']+verb+'。',url=activity_url(r)))
+ name=r['title']
+ if verb=='で講義を行いました':name=re.sub(r'[ 　]+(?:ゲスト講義|特別講義|集中講義|講義|授業|講習会|講座)$','',name)
+ elif verb=='で講演しました':name=re.sub(r'[ 　]+(?:招待講演|基調講演|ゲスト講演|講演)$','',name)
+ news.append(dict(id='news-'+r['id'],date=date(r),kind='活動',title=name+verb+'。',url=activity_url(r)))
 for r in V:
  if date(r):news.append(dict(id='news-'+r['id'],date=date(r),kind='動画',title='動画「'+r['title']+'」を公開しました。',url='/videos.html#'+r['id']))
 news=order(news)
