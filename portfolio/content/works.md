@@ -117,11 +117,3 @@
 - id: achievement-xi-023
 - category: 会社での制作
 
-## Perfect Day for Factorization
-
-- id: work-pdpf
-- date: 2026
-- category: 個人制作
-- url: /PDPF/
-- description: ブラウザで遊べるゲーム。
-- image: /portfolio/assets/pdpf.svg
