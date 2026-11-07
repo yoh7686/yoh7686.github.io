@@ -96,6 +96,18 @@
 - credit: 研究紹介動画 / Yohei Yanase
 
 
+## NoKamiPlay
+
+- id: work-nokamiplay
+- category: 個人制作
+- date: 2016-09
+- url: https://yoh7686.github.io/NoKamiPlay/
+- source_label: ゲームをプレイ
+- image: /portfolio/assets/nokamiplay.jpg
+- image_fit: contain
+- description: 敵は2体、弾は最大4つの高難度シューティングゲーム。
+
+
 ## Money Heroes
 
 - id: achievement-xi-008
