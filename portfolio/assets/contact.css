@@ -3,3 +3,15 @@
 .world[data-world="2"] .world-target:before{content:"";position:absolute;left:31%;top:8%;width:38%;height:68%;background:#25251c;box-shadow:inset 3px 2px #171a16,2px 0 #8b6339;pointer-events:none}
 
 .world[data-world="0"] .world-item{width:7.55%;height:18.16%;min-width:0;min-height:0}
+
+/* Hide the revealed layer immediately on Reset, before the next paint. */
+.world:not(.revealed) .world-after{transition:none;visibility:hidden}
+.world.revealed .world-after{visibility:visible}
+.world[data-world="2"] .world-item{width:4.95%;height:22%;min-width:0;min-height:0}
+.world-fire i,.world-fire i:nth-child(n){left:var(--x);top:var(--y);width:4%;height:var(--h);transform-origin:50% 100%;background:linear-gradient(to top,#fff4b1 0 25%,#ffc64c 25% 55%,#f17b2d 55% 80%,#bd4328 80%);clip-path:polygon(0 100%,0 50%,20% 50%,20% 25%,40% 25%,40% 0,60% 0,60% 35%,80% 35%,80% 60%,100% 60%,100% 100%);box-shadow:none;animation:fire-spread 1.3s steps(7,end) var(--delay) both;}
+.world-fire:before{content:"";position:absolute;left:27%;top:25%;width:48%;height:65%;background:radial-gradient(ellipse,#ffad384d,transparent 70%);animation:fire-glow .22s steps(2,end) infinite alternate}
+.world-fire:after{content:"";position:absolute;left:46%;top:51%;width:4px;height:4px;background:#ffdc72;box-shadow:32px -20px #ffb746,-36px 9px #ffd885,70px 2px #ffdc72,-65px -12px #ff9c36,15px 24px #fff0a4;animation:embers .7s steps(7,end) infinite}
+@keyframes fire-spread{0%{opacity:0;transform:scale(.2,.15) translateY(20%)}20%{opacity:1;transform:scale(.8,.7)}40%{transform:scale(1.1,1.25)}60%{transform:scale(.85,.8)}80%{opacity:1;transform:scale(1.1,1.05)}100%{opacity:0;transform:scale(.7,.35) translateY(-25%)}}
+@keyframes fire-glow{to{opacity:.45}}
+@keyframes embers{from{opacity:1;transform:translateY(0)}to{opacity:0;transform:translate(8px,-65px)}}
+@media(prefers-reduced-motion:reduce){.world-fire i,.world-fire:before,.world-fire:after{animation:none}}

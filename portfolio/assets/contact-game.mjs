@@ -33,7 +33,7 @@ const sprites=[
  ['......y.........','.....yyy........','....ywwyo.......','....ywwyoo......','.....yyoo.......','.....BBB........','.....bBb........','.....bBb........','.....bBb........','.....bBb........','.....bBb........','.....bBb........','.....bbb........'],
  ['................','...dddddddddd...','..drRRRRRRRRdk..','.drRRRRRRRRddk..','.drrrrrrrrrddk..','.drwwwrrrrrddk..','.drrrrrrrrrddk..','.drrrrrrrrrddk..','.drrrrrrrrrddk..','.dddddddddddwk..','..wwwwwwwwwwkk..','..dddddddddddk..','................']
 ];
-function art(which){if(which===0)return '<svg viewBox="216 235 58 62" aria-hidden="true"><defs><clipPath id="apple-cut"><path d="M244 239H251V237H272V245H268V250H260V254H266V263H268V276H264V285H259V291H249V294H233V291H225V286H220V278H217V260H221V253H230V250H241V245H244Z"/></clipPath></defs><image href="/portfolio/assets/contact-worlds.png" width="1536" height="1024" clip-path="url(#apple-cut)"/></svg>';return '<svg viewBox="0 0 16 14" aria-hidden="true" shape-rendering="crispEdges">'+sprites[which].flatMap((row,y)=>[...row].map((pixel,x)=>palettes[pixel]?`<rect x="${x}" y="${y}" width="1" height="1" fill="${palettes[pixel]}"/>`:'')).join('')+'</svg>';}
+function art(which){if(which===2)return '<svg viewBox="1204 800 38 75" aria-hidden="true"><image href="/portfolio/assets/contact-worlds.png" width="1536" height="1024"/></svg>';if(which===0)return '<svg viewBox="216 235 58 62" aria-hidden="true"><defs><clipPath id="apple-cut"><path d="M244 239H251V237H272V245H268V250H260V254H266V263H268V276H264V285H259V291H249V294H233V291H225V286H220V278H217V260H221V253H230V250H241V245H244Z"/></clipPath></defs><image href="/portfolio/assets/contact-worlds.png" width="1536" height="1024" clip-path="url(#apple-cut)"/></svg>';return '<svg viewBox="0 0 16 14" aria-hidden="true" shape-rendering="crispEdges">'+sprites[which].flatMap((row,y)=>[...row].map((pixel,x)=>palettes[pixel]?`<rect x="${x}" y="${y}" width="1" height="1" fill="${palettes[pixel]}"/>`:'')).join('')+'</svg>';}
 function place(el,box){el.style.left=box[0]+'%';el.style.top=box[1]+'%';if(box.length>2){el.style.width=box[2]+'%';el.style.height=box[3]+'%';}}
 function choose(next){
  generation++;clearTimeout(timer);clearTimeout(idleTimer);index=next;phase='idle';selected=false;destination=null;drag=null;suppressClick=false;
@@ -60,7 +60,7 @@ function solve(){
  status.textContent=index===1?'草が燃え、何かが見えてきました。':'奥で、小さな音がしました。';
  if(index===1)world.classList.add('burning');
  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
- timer=setTimeout(()=>{if(token!==generation)return;item.hidden=true;world.classList.add('revealed');world.classList.remove('burning');phase='cleared';effect('success');entrance.hidden=false;loadForm(token);},reduce?0:index===1?950:300);
+ timer=setTimeout(()=>{if(token!==generation)return;item.hidden=true;world.classList.add('revealed');world.classList.remove('burning');phase='cleared';effect('success');entrance.hidden=false;loadForm(token);},reduce?0:index===1?1800:300);
 }
 item.addEventListener('click',()=>{if(suppressClick){suppressClick=false;return;}select();});
 drop.addEventListener('click',()=>{if(selected)solve();else status.textContent='動かすものを先に選んでください。';});
