@@ -10,24 +10,41 @@
 - image: https://i.ytimg.com/vi/THk92rev1VA/hqdefault.jpg
 - url: https://youtu.be/THk92rev1VA
 - credit: 研究紹介動画 / Keigo Matsumoto
+- video_url: https://youtu.be/THk92rev1VA
+
 
 ## D-Ball
 
 - id: achievement-xi-002
 - category: 研究作品
 - date: 2017
+- url: https://doi.org/10.1145/3210299.3210305
+- source_label: 研究論文
 
 ## Hover Crosse
 
 - id: achievement-xi-003
 - category: 研究作品
 - date: 2015
+- url: https://www.superhuman-sports.org/sports/hovercrosse.php
+- source_label: 超人スポーツ協会の紹介
+- video_url: https://youtu.be/jQnR4Jn4f1o
+- image: https://i.ytimg.com/vi/jQnR4Jn4f1o/hqdefault.jpg
+- credit: 研究紹介動画 / Yohei Yanase
+
 
 ## StratoJump
 
 - id: achievement-xi-004
 - category: 研究作品
 - date: 2014
+- url: https://lab.rekimoto.org/projects/stratojump/
+- source_label: 研究室のプロジェクト紹介
+- featured: true
+- video_url: https://youtu.be/e_AKi4rUh_I
+- image: https://i.ytimg.com/vi/e_AKi4rUh_I/hqdefault.jpg
+- credit: 研究紹介動画 / Yohei Yanase
+
 
 ## オーガナイズドゲーム
 
@@ -35,48 +52,78 @@
 - category: 研究作品
 - date: 2016
 - description: 学会そのものをゲーム化したイベント型作品
+- url: https://sites.google.com/site/yoh7686/publications
+- source_label: 本人の公開業績表（展示・イベント）
+- video_url: https://youtu.be/Z-LmVjug_oU
+- image: https://i.ytimg.com/vi/Z-LmVjug_oU/hqdefault.jpg
+- credit: 2015年版チュートリアル動画 / Yohei Yanase
+
 
 ## 誰でも神プレイできるジャンプアクションゲーム
 
 - id: achievement-xi-006
 - category: 研究作品
 - date: 2015
+- url: https://cedil.cesa.or.jp/cedil_sessions/view/1427
+- source_label: CEDEC 発表資料
+- video_url: https://youtu.be/VD-zVu17N-k
+- image: https://i.ytimg.com/vi/VD-zVu17N-k/hqdefault.jpg
+- credit: 研究紹介動画 / Yohei Yanase
+
 
 ## 誰でも神プレイできるシューティングゲーム
 
 - id: achievement-xi-007
 - category: 研究作品
 - date: 2013
+- url: https://www.wiss.org/WISS2013Proceedings/demo/093.pdf
+- source_label: 研究発表論文（PDF）
+- video_url: https://youtu.be/no82U9xVS84
+- image: https://i.ytimg.com/vi/no82U9xVS84/hqdefault.jpg
+- credit: 研究紹介動画 / Yohei Yanase
+
 
 ## Money Heroes
 
 - id: achievement-xi-008
 - category: 個人制作
 - date: 2015
+- video_url: https://youtu.be/bq_4c3vo8HM
+- image: https://i.ytimg.com/vi/bq_4c3vo8HM/hqdefault.jpg
+- credit: 作品紹介動画 / Yohei Yanase
+
 
 ## 研究者人狼
 
 - id: achievement-xi-009
 - category: 研究作品
 - date: 2015
+- url: https://sites.google.com/site/yoh7686/publications
+- source_label: 本人の公開業績表（展示・イベント）
 
 ## Silent Rugby
 
 - id: achievement-xi-010
 - category: 研究作品
 - date: 2015
+- url: https://sites.google.com/site/yoh7686/publications
+- source_label: 本人の公開業績表（展示・イベント）
 
 ## 超会議ジャンプ
 
 - id: achievement-xi-011
 - category: 研究作品
 - date: 2014
+- url: https://sites.google.com/site/yoh7686/publications
+- source_label: 本人の公開業績表（展示・イベント）
 
 ## Hiyoshi Jump
 
 - id: achievement-xi-012
 - category: 研究作品
 - date: 2014
+- url: https://sites.google.com/site/yoh7686/publications
+- source_label: 本人の公開業績表（展示・イベント）
 
 ## 狭霧の國
 
@@ -191,7 +238,7 @@
 
 - id: work-unityroom-magikaruta
 - date: 2024-12-14
-- category: 個人制作
+- category: 研究作品
 - url: https://unityroom.com/games/magikaruta
 - image: https://os-worker.unityroom.com/unityroom_production/icon/123643/icon_20241229_155257.png?h=1735455177
 - description: マジカルタは競技かるたのかけひきを簡単に楽しむためのゲームです。
@@ -242,7 +289,7 @@
 
 - id: work-unityroom-ezkaruta
 - date: 2025-08-25
-- category: 個人制作
+- category: 研究作品
 - url: https://unityroom.com/games/ezkaruta
 - image: https://os-worker.unityroom.com/unityroom_production/icon/204797/icon_20250825_215903.png?h=1756126743
 - description: 競技かるたの駆け引きを手軽に楽しむカードゲームの英語版。

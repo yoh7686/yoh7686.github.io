@@ -13,7 +13,7 @@
 - date: 2026-07-22
 - kind: 登壇
 - subtitle: PERACON
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京シリアスゲームサミット2026
 
@@ -35,7 +35,7 @@
 - date: 2026-03-21
 - kind: パネル
 - subtitle: パネルディスカッション「創る・伝える・深める」(「ふかめる:批評・研究・キュレーションから」)
-- status: 実施状況確認中
+- omit_news: true
 
 ## IPSJ-One 2026
 
@@ -62,7 +62,7 @@
 - id: event-sheet-0498
 - date: 2025-11-15
 - kind: トーク
-- status: 実施状況確認中
+- omit_news: true
 
 ## 日本心理学会 第89回大会 シンポジウム
 
@@ -90,7 +90,7 @@
 - id: event-sheet-0475
 - date: 2025-08-23
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## シリアスゲームサミット
 
@@ -105,7 +105,7 @@
 - date: 2025-07-22
 - kind: 講演(共同)
 - subtitle: 豆知識ではない心理学(資料名からの推定)
-- status: 実施状況確認中
+- omit_news: true
 
 ## JASPIC 全体合宿 基調講演
 
@@ -127,7 +127,7 @@
 - date: 2024-08-23
 - kind: パネル
 - subtitle: PERACON 審査員感想戦
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2024
 
@@ -135,7 +135,7 @@
 - date: 2024-08-23
 - kind: 登壇
 - subtitle: PERACON 結果発表
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2024 Unityスポンサーセッション
 
@@ -150,7 +150,7 @@
 - date: 2024-08-21
 - kind: 講演
 - subtitle: ゲーム開発の知恵、教育アプリで花開く
-- status: 実施状況確認中
+- omit_news: true
 
 ## バンタンゲームアカデミー東京校 講演会
 
@@ -169,7 +169,7 @@
 - id: event-sheet-0433
 - date: 2023-12-18
 - kind: オンライントーク
-- status: 実施状況確認中
+- omit_news: true
 
 ## バンタンゲームアカデミー 講演会(名古屋・大阪)
 
@@ -188,7 +188,7 @@
 - id: event-sheet-0429
 - date: 2023-11-22
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 第19回 itSMF Japan コンファレンス 招待講演
 
@@ -216,7 +216,7 @@
 - date: 2023-08-25
 - kind: パネル
 - subtitle: PERACON 2023 審査感想戦
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2023
 
@@ -224,7 +224,7 @@
 - date: 2023-08-25
 - kind: 登壇
 - subtitle: PERACON 2023 結果発表
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2023
 
@@ -232,7 +232,7 @@
 - date: 2023-08-24
 - kind: 講演
 - subtitle: IVRC30周年 - VR作品の制作・展示を通じた教育の歩みとこれから
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2023 Unityセッション
 
@@ -265,7 +265,7 @@
 - id: event-sheet-0385
 - date: 2023
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## HAL名古屋 在校生向け講演会
 
@@ -298,7 +298,7 @@
 - id: event-sheet-0363
 - date: 2022-08-25
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## MIXI kidsVALLEY プログラミングサマーキャンプ2022
 
@@ -331,7 +331,7 @@
 - date: 2022-07-02
 - kind: 講演
 - subtitle: Unity 産業・研究事例2022と簡単メタバース体験
-- status: 実施状況確認中
+- omit_news: true
 
 ## WiZ 業界研究セミナー
 
@@ -364,7 +364,7 @@
 - id: event-sheet-0339
 - date: 2022-04-27
 - kind: 配信出演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 講談社ゲームクリエイターズラボ×Unity 対談収録
 
@@ -372,7 +372,7 @@
 - date: 2022-04-15
 - kind: 対談(収録)
 - subtitle: 安原・簗瀬 対談
-- status: 実施状況確認中
+- omit_news: true
 
 ## TECH.C. ゲームショウ(JIKEI COM Game & e-Sports SHOW) 特別講演
 
@@ -405,7 +405,7 @@
 - id: event-sheet-0318
 - date: 2021-08-26
 - kind: 講演×2
-- status: 実施状況確認中
+- omit_news: true
 
 ## ShowxGuys 高松
 
@@ -431,7 +431,7 @@
 - id: event-sheet-0309
 - date: 2021-04-15
 - kind: 配信登壇
-- status: 実施状況確認中
+- omit_news: true
 
 ## IPSJ-ONE 2021 スポンサー動画
 
@@ -473,7 +473,7 @@
 - id: event-sheet-0295
 - date: 2020-11
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京ゲームショウ2020 ONLINE 主催者番組
 
@@ -501,14 +501,14 @@
 - id: event-sheet-0280
 - date: 2020-07-08
 - kind: LT(収録)
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unityステーション UTJ LT大会 #1
 
 - id: event-sheet-0279
 - date: 2020-07-02
 - kind: LT
-- status: 実施状況確認中
+- omit_news: true
 
 ## AUZM Tokyo
 
@@ -549,7 +549,7 @@
 - id: event-sheet-0266
 - date: 2019-11-23
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## AUGM山口(YCAM) 講演
 
@@ -564,7 +564,7 @@
 - date: 2019-09-26
 - kind: 講演
 - subtitle: 学生向けUnity教育の導入事例
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unite Tokyo 2019 ラウンジセッション
 
@@ -572,7 +572,7 @@
 - date: 2019-09-26
 - kind: 講演
 - subtitle: Unityアカデミックアライアンスの紹介と導入事例
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2019 インタラクティブセッション
 
@@ -587,7 +587,7 @@
 - date: 2019-08-24
 - kind: 講演
 - subtitle: ゲームの技術が社会を変える 広がるUnityの世界
-- status: 実施状況確認中
+- omit_news: true
 
 ## ALife Game Jam
 
@@ -633,14 +633,14 @@
 - date: 2018-12-07
 - kind: ブースセッション
 - subtitle: Unityの研究者向け手引き
-- status: 実施状況確認中
+- omit_news: true
 
 ## SIGGRAPH Asia 2018 Unity Exhibitor Talk
 
 - id: event-sheet-0230
 - date: 2018-12-05
 - kind: 登壇
-- status: 実施状況確認中
+- omit_news: true
 
 ## EDGEof『OFP #2』
 
@@ -653,7 +653,7 @@
 - id: event-sheet-0228
 - date: 2018-12-01
 - kind: 登壇
-- status: 実施状況確認中
+- omit_news: true
 
 ## IVRC 懇親会ミニパネル
 
@@ -661,14 +661,14 @@
 - date: 2018-11-15
 - kind: パネル
 - subtitle: これからのIVRCに求める人材は？
-- status: 実施状況確認中
+- omit_news: true
 
 ## Peatixイベント(event/483366)
 
 - id: event-sheet-0223
 - date: 2018-11-12
 - kind: 登壇
-- status: 実施状況確認中
+- omit_news: true
 
 ## 関西オープンフォーラム 2018
 
@@ -702,14 +702,14 @@
 - id: event-sheet-0216
 - date: 2018-10-06
 - kind: プレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unity道場 幕張スペシャル
 
 - id: event-sheet-0214
 - date: 2018-09-22
 - kind: プレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## 情報処理学会 第49回EC研究会(メタ研究会)
 
@@ -717,7 +717,7 @@
 - date: 2018-08-28
 - kind: 研究会発表
 - subtitle: ゲームのチュートリアルについて
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2018
 
@@ -744,14 +744,14 @@
 - id: event-sheet-0204
 - date: 2018-07-01
 - kind: プレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## 母校での講演
 
 - id: event-sheet-0199
 - date: 2018-06-16
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## IBM Think Japan Code Day (DB-4)
 
@@ -798,7 +798,7 @@
 - id: event-sheet-0188
 - date: 2018-03-15
 - kind: 登壇
-- status: 実施状況確認中
+- omit_news: true
 
 ## 第1回あいまいなゲーム研究会
 
@@ -827,7 +827,7 @@
 - id: event-sheet-0183
 - date: 2018-02-28
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 情報処理学会 第46回EC研究会
 
@@ -855,7 +855,7 @@
 - id: event-sheet-0175
 - date: 2017-12-03
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## サイエンスアゴラ2017
 
@@ -868,7 +868,7 @@
 - id: event-sheet-0172
 - date: 2017-11-22
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unity道場 札幌
 
@@ -881,7 +881,7 @@
 - id: event-sheet-0165
 - date: 2017-09-28
 - kind: 基調講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2017
 
@@ -951,7 +951,7 @@
 - id: event-sheet-0152
 - date: 2017-06-24
 - kind: シンポジウム
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unite 2017 Tokyo
 
@@ -1005,7 +1005,7 @@
 - id: event-sheet-0127
 - date: 2016-11-04
 - kind: 登壇
-- status: 実施状況確認中
+- omit_news: true
 
 ## VR/AR/MRの産業応用，日立中央研究所 (11/2016)
 
@@ -1111,7 +1111,7 @@
 - date: 2016-04-04
 - kind: 基調講演
 - subtitle: Keynote(教育パート)
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unite 2016 Tokyo
 
@@ -1132,7 +1132,7 @@
 - date: 2016-03-05
 - kind: 講演
 - subtitle: ゲームの楽しさは計測できるのか？
-- status: 実施状況確認中
+- omit_news: true
 
 ## GAME CREATORS CONFERENCE '16
 
@@ -1154,7 +1154,7 @@
 - date: 2016-02-20
 - kind: 登壇
 - subtitle: Unityプレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## dots おうちハック発表会
 
@@ -1175,7 +1175,7 @@
 - date: 2016-01
 - kind: 社内講演
 - subtitle: ゲームの認知・既視感・UI等
-- status: 実施状況確認中
+- omit_news: true
 
 ## ゲーミフィケーションの終着点，次世代エンターテインメント研究会 (01/2016)
 
@@ -1239,7 +1239,7 @@
 - date: 2015-09-19
 - kind: 講演
 - subtitle: 何を学んだかよりどう活かすか、何をしたいかより何をしたか
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2015
 
@@ -1247,7 +1247,7 @@
 - date: 2015-08-28
 - kind: 登壇/パネル
 - subtitle: PERACON2015
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2015 DeNAセッション
 
@@ -1255,7 +1255,7 @@
 - date: 2015-08-28
 - kind: 講演(共同)
 - subtitle: ゲームにおける既視感で、どうユーザーの気持ちを掴むか？
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2015
 
@@ -1263,7 +1263,7 @@
 - date: 2015-08-26
 - kind: 講演(公募)
 - subtitle: 消極的なユーザのための◯◯システム
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2015
 
@@ -1299,7 +1299,7 @@
 - id: event-sheet-0061
 - date: 2015-07-04
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## パネルディスカッション「スポーツをつくろう。」，超人スポーツハッカソン，東俊介，犬飼博士，為末大，稲見昌彦，南澤孝太と (07/2015)
 
@@ -1334,7 +1334,7 @@
 - id: event-sheet-0053
 - date: 2015-04-24
 - kind: 登壇(座長)
-- status: 実施状況確認中
+- omit_news: true
 
 ## AUGM神戸 2015
 
@@ -1342,7 +1342,7 @@
 - date: 2015-03-29
 - kind: 登壇
 - subtitle: Unityプレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## IPSJ-One 2015 (03/2015)
 
@@ -1357,7 +1357,7 @@
 - date: 2015-02-28
 - kind: 登壇
 - subtitle: Unityプレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## KANSAI CEDEC 2015
 
@@ -1379,7 +1379,7 @@
 - date: 2014-11-19
 - kind: 講演/発表
 - subtitle: スキル向上に消極的な人のためのゲームシステム
-- status: 実施状況確認中
+- omit_news: true
 
 ## AUGM東京 2014
 
@@ -1387,7 +1387,7 @@
 - date: 2014-10-18
 - kind: 登壇
 - subtitle: Unityプレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## SBクリエイティブ ゲーム書籍イベント
 
@@ -1402,7 +1402,7 @@
 - date: 2014-10-04
 - kind: 登壇
 - subtitle: Unityプレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## 最新技術による古典的名作の再構築，AbPro 2014 (10/2014)
 
@@ -1417,7 +1417,7 @@
 - date: 2014-09-04
 - kind: 登壇
 - subtitle: PERACON2014 授賞式
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2014
 
@@ -1425,7 +1425,7 @@
 - date: 2014-09-03
 - kind: 講演
 - subtitle: 「つもり」をデザインする
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2014
 
@@ -1433,7 +1433,7 @@
 - date: 2014-09-03
 - kind: 講演
 - subtitle: 「楽しさ」の設計と評価〜我々はどこで失敗し、どこへ行くのか
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2014 インタラクティブセッション
 
@@ -1447,7 +1447,7 @@
 - id: event-sheet-0029
 - date: 2014-07-30
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## AUGM長崎 2014
 
@@ -1455,14 +1455,14 @@
 - date: 2014-06-28
 - kind: 登壇
 - subtitle: Unityプレゼン
-- status: 実施状況確認中
+- omit_news: true
 
 ## ニコニコ超会議3 ニコニコ学会β
 
 - id: event-sheet-0017
 - date: 2014-04-25
 - kind: 登壇
-- status: 実施状況確認中
+- omit_news: true
 
 ## コンセプト⇔ゲームデザイン どう合わせる?，Unite Japan 2014 (04/2014)
 
@@ -1491,7 +1491,7 @@
 - id: event-sheet-0009
 - date: 2013-10-30
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## エンターテインメントコンピューティング2013 (EC2013)
 
@@ -1499,7 +1499,7 @@
 - date: 2013-10
 - kind: 招待講演
 - subtitle: 「ふーん」の谷を越えよう！ 面白さを伝えるコンテンツ作り
-- status: 実施状況確認中
+- omit_news: true
 
 ## 日本VR学会 第18回大会 オーガナイズドセッション「いま改めてHMDを考える」(21A)
 
@@ -1507,7 +1507,7 @@
 - date: 2013-09
 - kind: OS講演+パネル
 - subtitle: HMDとゲーム(没入型ゲーム空間)
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2013
 
@@ -1563,7 +1563,7 @@
 - id: event-sheet-0547
 - date: 2026-10-26
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京工芸大学「プロデュース論」
 
@@ -1571,9 +1571,9 @@
 - date: 2026-10-23
 - kind: 講義
 - subtitle: ゲームエンジンにまつわる仕事とビジネス
-- status: 実施状況確認中
+- omit_news: true
 
-## はこだて未来大 講師招へい
+## 公立はこだて未来大学
 
 - id: event-sheet-0544
 - date: 2026-10-09
@@ -1593,13 +1593,6 @@
 - kind: 講義
 - subtitle: ゲームエンジンの産業応用
 
-## 電気通信大学 授業(2026年度後期・金曜5限)
-
-- id: event-sheet-0541
-- date: 2026-10-02
-- kind: 講義(連続)
-- status: 実施状況確認中
-
 ## 電気通信大学 CEREC開所式
 
 - id: event-sheet-0540
@@ -1612,7 +1605,7 @@
 - id: event-sheet-0533
 - date: 2026-08-06
 - kind: 集中講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 伊豆中央高校 東京大学訪問
 
@@ -1652,7 +1645,7 @@
 - id: event-sheet-0526
 - date: 2026-06-29
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京電機大学「IT最前線」
 
@@ -1684,7 +1677,7 @@
 - id: event-sheet-0520
 - date: 2026-05-12
 - kind: ワークショップ講師
-- status: 実施状況確認中
+- omit_news: true
 
 ## 最強ゲームジャム2026
 
@@ -1705,14 +1698,14 @@
 - id: event-sheet-0516
 - date: 2026-04-14
 - kind: 集中講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京大学大学院「文化継承情報論」(3/3)
 
 - id: event-sheet-0503
 - date: 2025-12-23
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 九州大学 シンポジウム
 
@@ -1725,28 +1718,28 @@
 - id: event-sheet-0501
 - date: 2025-12-16
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京大学大学院「文化継承情報論」(1/3)
 
 - id: event-sheet-0500
 - date: 2025-12-09
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学 授業
 
 - id: event-sheet-0497
 - date: 2025-11-14
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東洋大学(INIAD) 授業
 
 - id: event-sheet-0496
 - date: 2025-11-10
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## SPI Japan 2025 チュートリアル
 
@@ -1754,7 +1747,7 @@
 - date: 2025-10-24
 - kind: チュートリアル/WS
 - subtitle: アナログゲーム制作を通じて学ぶ「体験のデザイン」
-- status: 実施状況確認中
+- omit_news: true
 
 ## はこだて未来大「インタラクティブシステム」
 
@@ -1774,7 +1767,7 @@
 - id: event-sheet-0488
 - date: 2025-10-03
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 北海道情報大学 講義
 
@@ -1788,7 +1781,7 @@
 - date: 2025-09-22
 - kind: 講義
 - subtitle: ゲームエンジン・ゲーム技術の産業応用について
-- status: 実施状況確認中
+- omit_news: true
 
 ## 巣鴨中学校・高等学校 巣園祭2025 招待講演
 
@@ -1809,7 +1802,7 @@
 - id: event-sheet-0469
 - date: 2025-06-30
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京電機大学「IT最前線」
 
@@ -1822,7 +1815,7 @@
 - id: event-sheet-0466
 - date: 2025-05-23
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 伊豆中央高校 生徒研修(オフィス訪問)
 
@@ -1843,7 +1836,7 @@
 - id: event-sheet-0462
 - date: 2025-01-06
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京工科大学 デジタルツインセミナー
 
@@ -1856,21 +1849,21 @@
 - id: event-sheet-0459
 - date: 2024-10-28
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## はこだて未来大 Unityの授業
 
 - id: event-sheet-0457
 - date: 2024-10-24
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学 FMS特別講義
 
 - id: event-sheet-0456
 - date: 2024-10-10
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 北海道情報大学「情報メディア入門Ⅱ」
 
@@ -1883,14 +1876,14 @@
 - id: event-sheet-0453
 - date: 2024-09-27
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京工芸大学大学院「メディア実践講義」
 
 - id: event-sheet-0452
 - date: 2024-09-14
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## MIXI プログラミングサマーキャンプ Unity講座
 
@@ -1903,7 +1896,7 @@
 - id: event-sheet-0443
 - date: 2024-07-01
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 大阪芸術大学「スーパークリエイター特論」
 
@@ -1931,14 +1924,14 @@
 - id: event-sheet-0439
 - date: 2024-03-11
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京大学 ワークショップ
 
 - id: event-sheet-0438
 - date: 2024-02-16
 - kind: ワークショップ
-- status: 実施状況確認中
+- omit_news: true
 
 ## 開志専門職大学「没入型コンピューティング」ゲスト講義
 
@@ -2014,7 +2007,7 @@
 - id: event-sheet-0416
 - date: 2023-10
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京情報クリエイター工学院専門学校(大原学園) 講演会
 
@@ -2028,7 +2021,7 @@
 - date: 2023-08-19
 - kind: 講演
 - subtitle: Unityの様々な活用やエンジニアの活躍など
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京都立大学 ARハッカソン 特別講演
 
@@ -2066,7 +2059,7 @@
 - id: event-sheet-0400
 - date: 2023-06-28
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 中央大学 講演会(ゲームジャム事前講演)
 
@@ -2249,7 +2242,7 @@
 - id: event-sheet-0353
 - date: 2022-07-06
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学 Unityセミナー
 
@@ -2276,14 +2269,14 @@
 - date: 2022-06-22
 - kind: 講義
 - subtitle: データサイエンスとAI(ゲームAI中心)
-- status: 実施状況確認中
+- omit_news: true
 
 ## 神奈川工科大学 ゲームデザイン論
 
 - id: event-sheet-0343
 - date: 2022-05-25
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 日本電子専門学校 講演会
 
@@ -2311,7 +2304,7 @@
 - id: event-sheet-0336
 - date: 2022-01-17
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## はこだて未来大「インタラクティブシステム」
 
@@ -2353,7 +2346,7 @@
 - id: event-sheet-0326
 - date: 2021-11-14
 - kind: パネル
-- status: 実施状況確認中
+- omit_news: true
 
 ## 北海道情報大学 1年生オムニバス講義
 
@@ -2372,7 +2365,7 @@
 - id: event-sheet-0323
 - date: 2021-10-22
 - kind: 配信出演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 女子美術大学 Unity入門特別講義
 
@@ -2386,7 +2379,7 @@
 - id: event-sheet-0319
 - date: 2021-08-27
 - kind: 講義(推定)
-- status: 実施状況確認中
+- omit_news: true
 
 ## 名古屋情報メディア専門学校 オープンキャンパス講演
 
@@ -2394,7 +2387,7 @@
 - date: 2021-08-15
 - kind: 講演
 
-## 福知山公立大学 エンタテインメント情報学 招へい講演
+## 福知山公立大学「エンタテインメント情報学」
 
 - id: event-sheet-0316
 - date: 2021-07-30
@@ -2430,7 +2423,7 @@
 - id: event-sheet-0304
 - date: 2021
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学 先端メディアサイエンス特別講義
 
@@ -2488,7 +2481,7 @@
 - date: 2020-08-28
 - kind: ワークショップ
 - subtitle: Unityセミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 京都産業大学 物作り合宿
 
@@ -2541,7 +2534,7 @@
 - date: 2020-02-22
 - kind: 講演
 - subtitle: Unity説明会
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京大学「あそびの未来ファクトリー」
 
@@ -2574,7 +2567,7 @@
 - id: event-sheet-0263
 - date: 2019-11-07
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## はこだて未来大 Unity初心者ハンズオン
 
@@ -2615,7 +2608,7 @@
 - id: event-sheet-0252
 - date: 2019-08-09
 - kind: ワークショップ講師
-- status: 実施状況確認中
+- omit_news: true
 
 ## 大阪芸術大学 高校生向けワークショップ
 
@@ -2714,7 +2707,7 @@
 - id: event-sheet-0232
 - date: 2018-12-08
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 大垣 Unityセミナー&ハンズオン
 
@@ -2735,7 +2728,7 @@
 - date: 2018-11-20
 - kind: 講演
 - subtitle: リーダーシップについて
-- status: 実施状況確認中
+- omit_news: true
 
 ## 神奈川工科大学 ゲーム制作論
 
@@ -2743,7 +2736,7 @@
 - date: 2018-11-08
 - kind: 講義
 - subtitle: レベルデザイン
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学 授業
 
@@ -2763,14 +2756,14 @@
 - id: event-sheet-0212
 - date: 2018-08-26
 - kind: ワークショップ
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unityわくわくキャンプ香川
 
 - id: event-sheet-0211
 - date: 2018-08-25
 - kind: ワークショップ
-- status: 実施状況確認中
+- omit_news: true
 
 ## 帝塚山学院大学 オープンキャンパス 模擬講義
 
@@ -2783,28 +2776,28 @@
 - id: event-sheet-0208
 - date: 2018-08-10
 - kind: ワークショップ講師
-- status: 実施状況確認中
+- omit_news: true
 
 ## ヒューマンアカデミー京都校 講義
 
 - id: event-sheet-0207
 - date: 2018-08-09
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 文教大学 高田先生の授業(金曜クラス)
 
 - id: event-sheet-0203
 - date: 2018-06-29
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 専門学校WiZ 授業
 
 - id: event-sheet-0202
 - date: 2018-06-25
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 広島大学 回路理論(学部2年)
 
@@ -2858,14 +2851,14 @@
 - date: 2018-03-11
 - kind: 講義
 - subtitle: Unityゲーム開発講義(約3h)
-- status: 実施状況確認中
+- omit_news: true
 
 ## 岡山情報ビジネス学院(OIC) 講義
 
 - id: event-sheet-0184
 - date: 2018-03-01
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 学生VR Meetup 2018
 
@@ -2901,7 +2894,7 @@
 - id: event-sheet-0179
 - date: 2018
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 芝浦工業大学 Unityセミナー 第2回
 
@@ -2921,7 +2914,7 @@
 - id: event-sheet-0170
 - date: 2017-11-08
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 神奈川工科大学 ゲーム制作論(1年)
 
@@ -2980,14 +2973,14 @@
 - date: 2017-07-06
 - kind: 講義
 - subtitle: Contents Design from Experience and Memories
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学FMS Unityセミナー
 
 - id: event-sheet-0153
 - date: 2017-06-30
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 帝塚山学院大学 講演
 
@@ -3021,7 +3014,7 @@
 - id: event-sheet-0147
 - date: 2017-05-31
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## とくしま Unity講座(第2回)
 
@@ -3036,7 +3029,7 @@
 - date: 2017-05-18
 - kind: 講義
 - subtitle: Unityを使った様々な事例紹介
-- status: 実施状況確認中
+- omit_news: true
 
 ## WiZ 国際情報工科自動車大学校 講義
 
@@ -3051,7 +3044,7 @@
 - date: 2017-01-13
 - kind: 講義+演習
 - subtitle: 消極性デザイン
-- status: 実施状況確認中
+- omit_news: true
 
 ## 八戸工業大学 講演会
 
@@ -3078,7 +3071,7 @@
 - id: event-sheet-0133
 - date: 2016-12-02
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 中央大学 総合政策学部 岡嶋ゼミ
 
@@ -3092,7 +3085,7 @@
 - id: event-sheet-0131
 - date: 2016-11-25
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 神奈川工科大学 ゲーム制作論(1年)
 
@@ -3106,7 +3099,7 @@
 - id: event-sheet-0128
 - date: 2016-11-08
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unityハンズオンセミナー，芝浦工業大学 (11/2016)
 
@@ -3156,14 +3149,14 @@
 - id: event-sheet-0110
 - date: 2016-07-12
 - kind: 講義/講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京大学 稲見研 Unity勉強会
 
 - id: event-sheet-0108
 - date: 2016-06-28
 - kind: 勉強会講師
-- status: 実施状況確認中
+- omit_news: true
 
 ## 帝塚山学院大学 Unity講習会
 
@@ -3192,7 +3185,7 @@
 - date: 2016-05-25
 - kind: 講義
 - subtitle: ゲーム開発に関する講義と研究室見学
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京大学 コンテンツ講義
 
@@ -3200,7 +3193,7 @@
 - date: 2016-04-27
 - kind: 講義
 - subtitle: ゲーム作りの最初から最後まで
-- status: 実施状況確認中
+- omit_news: true
 
 ## 座・芸夢 第11回
 
@@ -3229,21 +3222,21 @@
 - id: event-sheet-0098
 - date: 2016-03-24
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 日本工学院 八王子 講義
 
 - id: event-sheet-0092
 - date: 2016-02-18
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 日本工学院(蒲田) 講義
 
 - id: event-sheet-0089
 - date: 2016-02-04
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 講演，関西学院大学 片寄研究室 (01/2016)
 
@@ -3383,7 +3376,7 @@
 - id: event-sheet-0057
 - date: 2015-05-29
 - kind: レクチャー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 神奈川工科大学 講義
 
@@ -3416,7 +3409,7 @@
 - id: event-sheet-0043
 - date: 2014-12-11
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京工芸大学 ゲームプロデュース論
 
@@ -3442,14 +3435,14 @@
 - id: event-sheet-0031
 - date: 2014-08-19
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学FMS 渡邊研 Unityセミナー
 
 - id: event-sheet-0030
 - date: 2014-08-06
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## 講演，京都工芸繊維大学 人間情報技術研究室 (08/2014)
 
@@ -3464,7 +3457,7 @@
 - id: event-sheet-0028
 - date: 2014-07-18
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学 情報コミュニケーション学部 講義
 
@@ -3472,7 +3465,7 @@
 - date: 2014-07-15
 - kind: 講義
 - subtitle: SFを実現する技術
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京工科大学 講義
 
@@ -3480,21 +3473,21 @@
 - date: 2014-07-11
 - kind: 講義
 - subtitle: すべてはゲームになる 人生をゲームデザインしよう！
-- status: 実施状況確認中
+- omit_news: true
 
 ## 津田塾大学 Unityセミナー
 
 - id: event-sheet-0024
 - date: 2014-07-07
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## お茶の水女子大学 Unity講座
 
 - id: event-sheet-0023
 - date: 2014-07-01
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unityセミナー，明治大学 先端メディアサイエンス学科 橋本研究室 (07/2014)
 
@@ -3524,14 +3517,14 @@
 - date: 2014-06-25
 - kind: 講義
 - subtitle: 講義「ゲームクリエイター特訓」
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学FMS 橋本ゼミ 講義(2回目)
 
 - id: event-sheet-0020
 - date: 2014-06-16
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 慶應義塾大学 理工学部 情報科学科 特別講義
 
@@ -3539,21 +3532,21 @@
 - date: 2014-06-13
 - kind: 講義
 - subtitle: 遊び、おもちゃ、ゲーム
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学FMS 橋本ゼミ 講義(1回目)
 
 - id: event-sheet-0018
 - date: 2014-06-09
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## お茶の水女子大学 伊藤研 Unityセミナー
 
 - id: event-sheet-0016
 - date: 2014-03-03
 - kind: セミナー
-- status: 実施状況確認中
+- omit_news: true
 
 ## Unityハンズオン，お茶の水女子大学 伊藤研究室 (02/2014)
 
@@ -3568,14 +3561,14 @@
 - id: event-sheet-0015
 - date: 2014-01-29
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学 講義
 
 - id: event-sheet-0014
 - date: 2014-01-21
 - kind: 講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 明治大学FMS エンターテインメント・コンテンツ概論
 
@@ -3583,7 +3576,7 @@
 - date: 2014-01-15
 - kind: 講義
 - subtitle: 講義「コンテンツ・エンタテインメント概論」
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東京大学 全学自由ゼミナール「メディア創造ワークショップ」講義
 
@@ -3591,21 +3584,21 @@
 - date: 2013-12-17
 - kind: 講義
 - subtitle: 社会問題をテーマとしたデジタルゲーム開発
-- status: 実施状況確認中
+- omit_news: true
 
 ## 金沢工業大学 ゲームフォーラム
 
 - id: event-sheet-0011
 - date: 2013-11-15
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 東海大学 学校祭講演
 
 - id: event-sheet-0010
 - date: 2013-11-02
 - kind: 講演
-- status: 実施状況確認中
+- omit_news: true
 
 ## 神奈川工科大学 ゲーム開発概論
 
@@ -3613,7 +3606,7 @@
 - date: 2013-10-24
 - kind: 講義
 - subtitle: 講義「ゲーム制作論」
-- status: 実施状況確認中
+- omit_news: true
 
 ## リアリティとビリーバビリティ，慶應義塾大学大学院メディアデザイン研究科「現実感設計」(07/2013)
 
@@ -3627,7 +3620,7 @@
 - id: event-sheet-0004
 - date: 2013-05-25
 - kind: 連続講義
-- status: 実施状況確認中
+- omit_news: true
 
 ## 講評，東京大学 メディア創成ワークショップ (2013)
 
@@ -3643,7 +3636,7 @@
 - date: 2012-12-21
 - kind: 講義
 - subtitle: インタフェースとしてのNPC
-- status: 実施状況確認中
+- omit_news: true
 
 ## ゲーム業界をめざす君へ／学生向け業界研究セミナー
 
@@ -3651,7 +3644,7 @@
 - date: 2012-11-17
 - kind: 講演
 - subtitle: すべては学び すべては遊び
-- status: 実施状況確認中
+- omit_news: true
 
 ## 神奈川工科大学 ゲーム制作論 講義
 
@@ -3659,7 +3652,7 @@
 - date: 2012-09-27
 - kind: 講義
 - subtitle: 講義「ゲーム制作論」
-- status: 実施状況確認中
+- omit_news: true
 
 ## VRとしてのハイエンドゲーム，東京工業大学「仮想世界システム」(07/2012)
 
@@ -3692,7 +3685,7 @@
 - id: event-sheet-0537
 - date: 2026-09-04
 - kind: 講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## ゲームメーカーズ スクランブル2026 なんでも相談所
 
@@ -3705,13 +3698,6 @@
 - id: event-sheet-0535
 - date: 2026-08-20
 - kind: 審査
-
-## 関西PLATEAU 学生アイデアソン in 京都
-
-- id: event-sheet-0534
-- date: 2026-08-08
-- kind: メンター
-- status: 実施状況確認中
 
 ## BitSummit Punch
 
@@ -3870,7 +3856,7 @@
 - id: event-sheet-0458
 - date: 2024-10-27
 - kind: 審査/メンター
-- status: 実施状況確認中
+- omit_news: true
 
 ## エンタテインメントコンピューティング2024(EC2024)
 
@@ -3896,7 +3882,7 @@
 - id: event-sheet-0444
 - date: 2024-07-09
 - kind: メンター
-- status: 実施状況確認中
+- omit_news: true
 
 ## iGi 第4期
 
@@ -3953,14 +3939,14 @@
 - id: event-sheet-0387
 - date: 2023-02
 - kind: 講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## NHK 神ゲー創造主エボリューション
 
 - id: event-sheet-0379
 - date: 2022-11-23
 - kind: 審査/メンター
-- status: 実施状況確認中
+- omit_news: true
 
 ## PLATEAU Hack Challenge 2022
 
@@ -3979,14 +3965,14 @@
 - id: event-sheet-0334
 - date: 2022
 - kind: 審査
-- status: 実施状況確認中
+- omit_news: true
 
 ## OCA 作品審査
 
 - id: event-sheet-0333
 - date: 2022
 - kind: 審査
-- status: 実施状況確認中
+- omit_news: true
 
 ## 全国小中学生プログラミング大会
 
@@ -3999,7 +3985,7 @@
 - id: event-sheet-0303
 - date: 2021
 - kind: ゲスト審査員
-- status: 実施状況確認中
+- omit_news: true
 
 ## iGi 第1期
 
@@ -4019,7 +4005,7 @@
 - id: event-sheet-0285
 - date: 2020-08-27
 - kind: 講評/審査
-- status: 実施状況確認中
+- omit_news: true
 
 ## IPA未踏 八合目会議
 
@@ -4032,7 +4018,7 @@
 - id: event-sheet-0160
 - date: 2017-07-25
 - kind: 講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## IPA未踏 八合目会議
 
@@ -4045,14 +4031,14 @@
 - id: event-sheet-0124
 - date: 2016-09-25
 - kind: 審査
-- status: 実施状況確認中
+- omit_news: true
 
 ## TECH.C. TGS2016出展ゲーム進捗発表会 講評
 
 - id: event-sheet-0112
 - date: 2016-07-15
 - kind: 講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## NSG業界セミナー(WiZ/NSG高等部)
 
@@ -4066,21 +4052,21 @@
 - id: event-sheet-0091
 - date: 2016-02-14
 - kind: 審査(推定)
-- status: 実施状況確認中
+- omit_news: true
 
 ## 日本工学院 作品講評
 
 - id: event-sheet-0050
 - date: 2015-03-12
 - kind: 講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## 仙台アプリコンテスト(仙台アプコン)
 
 - id: event-sheet-0048
 - date: 2015-02-14
 - kind: 審査(推定)
-- status: 実施状況確認中
+- omit_news: true
 
 ## はこだて未来大 角先生授業 ゲーム発表会 講評
 
@@ -4088,14 +4074,14 @@
 - date: 2015-01-09
 - kind: 講評
 - subtitle: 講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## Tech.C 学生作品レビュー会
 
 - id: event-sheet-0026
 - date: 2014-07-11
 - kind: 講評
-- status: 実施状況確認中
+- omit_news: true
 
 ## CEDEC 2012 IGDA日本スカラーシップ
 
