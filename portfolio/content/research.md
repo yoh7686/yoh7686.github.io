@@ -635,9 +635,9 @@
 
 - id: achievement-xiii-005
 - category: 受賞・採択
-- url: https://sites.google.com/site/yoh7686/publications
+- url: https://weekly.ascii.jp/elem/000/001/064/1064867/
 - date: 2015
-- source_label: 本人業績一覧
+- source_label: 受賞報道（チーム名・作品名）
 
 ## CEDECペラ企画コンテスト 殿堂入り（2011-2013、3年連続10位以内入賞）(08/2013)
 
@@ -676,16 +676,16 @@
 - id: achievement-xiv-004
 - category: 審査・委員・アドバイザー歴
 - date: 2014
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://sig.entcomp.org/committee/past/
+- source_label: 過去の運営委員名簿
 
 ## 情報処理学会 IPSJ-One 運営委員 (2015-2018)
 
 - id: achievement-xiv-005
 - category: 審査・委員・アドバイザー歴
 - date: 2018
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://ipsj-one.org/2018/
+- source_label: 2018年の委員一覧
 
 ## 芸術科学会 評議員 (2015-)
 
@@ -700,16 +700,16 @@
 - id: achievement-xiv-007
 - category: 審査・委員・アドバイザー歴
 - date: 2015
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://www.dcaj.or.jp/project/report/pdf/2016/dc_16_02.pdf
+- source_label: 平成28年度報告書・委員名簿
 
 ## 超人スポーツ委員 (2015-)
 
 - id: achievement-xiv-008
 - category: 審査・委員・アドバイザー歴
 - date: 2015
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://superhuman-sports.org/academy/members.html
+- source_label: 超人スポーツアカデミー委員一覧
 
 ## 第8回ニコニコ学会βシンポジウム「研究してみたマッドネス」座長 (2015)
 
@@ -740,8 +740,8 @@
 - id: achievement-xiv-012
 - category: 審査・委員・アドバイザー歴
 - date: 2013
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://ivrc.net/2026/committee/
+- source_label: 2026年の実行委員一覧
 
 ## CEDEC 実行委員 (2012-)
 
@@ -751,10 +751,12 @@
 - url: https://cedec.cesa.or.jp/2026/committee/index.php
 - source_label: 2026年運営委員一覧
 
-## CEDECペラ企画コンテスト 審査副委員長 (2012-)
+## CEDECペラ企画コンテスト 審査委員（2012）、審査副委員長（2013-）
 
 - id: achievement-xiv-014
 - category: 審査・委員・アドバイザー歴
 - date: 2012
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人業績一覧
+- url: https://cedec.cesa.or.jp/2013/event/challenge/gd.html
+- source_label: 2013年の審査委員会
+- reference_url: https://cedec.cesa.or.jp/2012/event/challenge/gd.html
+

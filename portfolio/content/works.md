@@ -77,8 +77,8 @@
 - id: achievement-xi-006
 - category: 研究作品
 - date: 2015
-- url: https://cedil.cesa.or.jp/cedil_sessions/view/1427
-- source_label: CEDEC 発表資料
+- url: https://www.jstage.jst.go.jp/article/tvrsj/21/3/21_415/_article/-char/ja/
+- source_label: 研究論文（全文公開）
 - video_url: https://youtu.be/VD-zVu17N-k
 - image: https://i.ytimg.com/vi/VD-zVu17N-k/hqdefault.jpg
 - credit: 研究紹介動画 / Yohei Yanase
@@ -149,6 +149,11 @@
 - date: 2014
 - url: https://sites.google.com/site/yoh7686/publications
 - source_label: 本人の公開業績表（展示・イベント）
+- video_url: https://youtu.be/SQ2tCMXOd_w
+- image: https://i.ytimg.com/vi/SQ2tCMXOd_w/hqdefault.jpg
+- image_fit: contain
+- credit: 研究紹介動画 / Unity Japan
+
 
 ## 狭霧の國
 
