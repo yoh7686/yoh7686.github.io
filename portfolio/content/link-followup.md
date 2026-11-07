@@ -64,12 +64,14 @@ Geminiなどへ依頼する場合は、各項目の正式タイトル・制作�
 - マジカルタ 〜トランプを使って遊べる簡易版競技かるた〜：https://unityroom.com/games/magikaruta
 - EzKaruta：https://unityroom.com/games/ezkaruta
 
+- オーガナイズドゲーム（2014）：http://ec2014.entcomp.org/
+
 ### 確認済みの動画
 
 - Unlimited Corridor：https://youtu.be/THk92rev1VA
 - Hover Crosse：https://youtu.be/jQnR4Jn4f1o
 - StratoJump：https://youtu.be/e_AKi4rUh_I
-- オーガナイズドゲーム：https://youtu.be/Z-LmVjug_oU
+- オーガナイズドゲーム2015：https://youtu.be/Z-LmVjug_oU
 - 誰でも神プレイできるジャンプアクションゲーム：https://youtu.be/VD-zVu17N-k
 - 誰でも神プレイできるシューティングゲーム：https://youtu.be/no82U9xVS84
 - Money Heroes：https://youtu.be/bq_4c3vo8HM

@@ -74,6 +74,7 @@ def work_card(r,home=False):
  dest='/works.html#'+r['id'] if home else r.get('url','')
  image=f'<img src="{esc(r["image"])}" alt="{esc(r["title"])}" width="480" height="270" loading="lazy">' if r.get('image') else '<span class="work-image-missing">'+esc(r['title'])+'</span>'
  thumb_class='thumb square-thumb' if r.get('url','').startswith('https://unityroom.com/') else 'thumb'
+ if r.get('image_fit')=='contain':thumb_class+=' contain-thumb'
  visual=link(dest,image,thumb_class) if dest else '<div class="'+thumb_class+'">'+image+'</div>'
  title=link(dest,esc(r['title'])) if dest else esc(r['title'])
  return '<article class="card"'+('' if home else f' id="{r["id"]}"')+'>'+visual+'<div class="meta"><span>'+esc(r['category'])+'</span><span>'+esc(date(r))+'</span></div><h3>'+title+'</h3><p>'+esc(r.get('description',''))+'</p>'+('' if home or not r.get('credit') else '<p class="caption">'+esc(r['credit'])+'</p>')+('' if home else work_links(r))+'</article>'

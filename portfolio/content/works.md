@@ -50,13 +50,26 @@
 
 - id: achievement-xi-005
 - category: 研究作品
-- date: 2016
-- description: 学会そのものをゲーム化したイベント型作品
-- url: https://sites.google.com/site/yoh7686/publications
-- source_label: 本人の公開業績表（展示・イベント）
+- date: 2014
+- description: EC2014で実施した、学会参加者全員で楽しむイベント型ゲーム。担当：ゲームデザイン。
+- url: http://ec2014.entcomp.org/
+- source_label: EC2014公式サイト
+- image: /portfolio/assets/organized-game-2014.png
+- credit: 画像：EC2014公式サイト
+- image_fit: contain
+
+## オーガナイズドゲーム2015
+
+- id: work-organized-game-2015
+- category: 研究作品
+- date: 2015
+- description: EC2015で実施。ゲームデザイン：簗瀬洋平、技術協力：スマイルブーム、仕掛け：トムソーヤ。
+- url: http://ec2015.entcomp.org/
+- source_label: EC2015公式サイト
 - video_url: https://youtu.be/Z-LmVjug_oU
-- image: https://i.ytimg.com/vi/Z-LmVjug_oU/hqdefault.jpg
-- credit: 2015年版チュートリアル動画 / Yohei Yanase
+- image: /portfolio/assets/organized-game-2015.png
+- credit: 画像：EC2015公式サイト
+- image_fit: contain
 
 
 ## 誰でも神プレイできるジャンプアクションゲーム
