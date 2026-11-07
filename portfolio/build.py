@@ -63,7 +63,7 @@ def work_card(r,home=False):
 news=[]
 for r in M:
  if not date(r):continue
- news.append(dict(id='news-'+r['id'],date=date(r),kind='メディア',title=r['publisher']+'に'+('執筆・参加記事' if any(x in r['kind'] for x in ['寄稿','執筆','聞き手']) else '関連記事')+'が掲載されました。「'+r['title']+'」',url='/media.html#'+r['id']))
+ news.append(dict(id='news-'+r['id'],date=date(r),kind='メディア',title=r['publisher']+'に'+('聞き手として参加したインタビュー' if '聞き手' in r['kind'] else ('寄稿' if '寄稿' in r['kind'] else ('登壇レポート' if any(x in r['kind'] for x in ['講演','パネル']) else ('インタビュー・対談' if any(x in r['kind'] for x in ['インタビュー','対談','座談会']) else '活動紹介記事'))))+'が掲載されました。「'+r['title']+'」',url='/media.html#'+r['id']))
 for r in A:
  if not date(r):continue
  role=r['kind'];verb='で講演しました' if any(x in role for x in ['講演','登壇','クロストーク','パネル']) else ('で講義を行いました' if any(x in role for x in ['講義','授業','講師']) else 'に'+role+'として参加しました')
@@ -71,10 +71,10 @@ for r in A:
 for r in V:
  if date(r):news.append(dict(id='news-'+r['id'],date=date(r),kind='動画',title='動画「'+r['title']+'」を公開しました。',url='/videos.html#'+r['id']))
 news=order(news)
-def news_rows(items):
- return '<ul class="news-list">'+''.join(f'<li class="news-row" {attr(r)}><span class="date">{esc(date(r).replace("-","."))}</span>{tag(r["kind"])}{link(r["url"],esc(r["title"]))}</li>' for r in items)+'</ul>'
+def news_rows(items,compact=False):
+ return '<ul class="news-list">'+''.join(f'<li class="news-row" {attr(r)}><span class="date">{esc(date(r).replace("-","."))}</span>{tag(r["kind"])}{link(r["url"],esc(r["title"].split('。「')[0]+'。' if compact and '。「' in r["title"] else r["title"]))}</li>' for r in items)+'</ul>'
 summary=f'<div class="profile-summary"><p class="eyebrow">PROFILE &amp; ACTIVITIES</p><h1>Yohei Yanase</h1><p class="name-ja">{esc(P["title"])}</p><p class="role">{esc(P["role"])}<small>{esc(P["company"])}</small></p><p class="fields">{esc(P["fields"])}</p><a class="subtle-link" href="/profile.html">プロフィールを見る →</a></div>'
-body='<div class="intro">'+summary+'<section>'+section_head('News','/news.html','すべての活動')+news_rows(news[:5])+'</section></div>'
+body='<div class="intro">'+summary+'<section>'+section_head('News','/news.html','すべての活動')+news_rows(news[:8],True)+'</section></div>'
 body+='<section class="section">'+section_head('作品','/works.html')+'<div class="card-grid home-works">'+''.join(work_card(r,True) for r in FEATURES)+'</div></section>'
 body+='<section class="section">'+section_head('動画','/videos.html')+'<div class="card-grid">'+''.join(video_card(r) for r in V[:3])+'</div></section>'
 body+='<div class="bottom-grid"><section class="section">'+section_head('メディア掲載','/media.html')+'<ul class="media-preview">'+''.join('<li><small>'+esc(date(r))+' / '+esc(r['publisher'])+' / '+esc(r['kind'])+'</small>'+link('/media.html#'+r['id'],esc(r['title']))+'</li>' for r in M[:3])+'</ul></section><section class="section">'+section_head('活動記録','/activities.html')+'<p class="muted">講演・講義・メンター・審査員の活動を年別に掲載しています。</p><nav class="year-links" aria-label="活動記録の年">'+''.join(link('/activities.html#year-'+y,esc(y)) for y in list(groups(A))[:5])+'</nav>'+link('/research.html','研究・著作一覧 →')+'</section></div>'
