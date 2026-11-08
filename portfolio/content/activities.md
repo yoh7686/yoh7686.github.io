@@ -1565,13 +1565,12 @@
 - kind: 講義
 - omit_news: true
 
-## 東京工芸大学「プロデュース論」
+## 東京工芸大学「ゲームプロデュース論」
 
 - id: event-sheet-0546
 - date: 2026-10-23
 - kind: 講義
 - subtitle: ゲームエンジンにまつわる仕事とビジネス
-- omit_news: true
 
 ## 公立はこだて未来大学
 

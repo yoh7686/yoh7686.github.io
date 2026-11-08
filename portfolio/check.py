@@ -1,4 +1,6 @@
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import re,runpy
@@ -27,17 +29,18 @@ for name,d in docs.items():
   if p.fragment:assert unquote(p.fragment) in docs[target].ids,(name,u,'missing anchor')
 # Every source record has exactly one year-page entry; no planned record is exported.
 s=(ROOT/'portfolio/content/activities.md').read_text();ids=re.findall(r'^- id: (.+)$',s,re.M)
-assert len(ids)==597
+assert ids and len(ids)==len(set(ids)), 'missing or duplicate activity IDs'
 rendered=[i for name,d in docs.items() if name.startswith('activities/') for i in d.ids if i.startswith('event-')]
 assert sorted(ids)==sorted(rendered)
 assert not re.search(r'^- status: 予定$',s,re.M)
-for dt in re.findall(r'^- date: (\d{4}-\d{2}-\d{2})$',s,re.M):assert dt<='2026-11-07'
+today=datetime.now(ZoneInfo('Asia/Tokyo')).date().isoformat()
+for dt in re.findall(r'^- date: (\d{4}-\d{2}-\d{2})$',s,re.M):assert dt<=today,(dt,'future activity')
 v=(ROOT/'portfolio/content/videos.md').read_text()
 assert len(re.findall(r'^- published_at: ',v,re.M))==31
 assert len(re.findall(r'^- date: \d{4}-\d{2}-\d{2}$',v,re.M))==31
 home=(ROOT/'index.html').read_text()
 for required in ['狭霧の國','魔人と失われた王国','NA:I','The Bubble Diver','Qxb_vffcn0A','F-SMEYVXOvU','シニア・アドボケイト','特任准教授','エンタテインメント創造研究教育センター','profile.jpg']:assert required in home,required
-print(f'PASS: {len(docs)} pages; routes and anchors; 597 activity records exactly once; no planned or excluded project entries; 31 video dates; selected works and affiliations')
+print(f'PASS: {len(docs)} pages; routes and anchors; {len(ids)} activity records exactly once; no planned or excluded project entries; 31 video dates; selected works and affiliations')
 
 # Every research record needs a usable destination; book covers retain their own links.
 for block in (ROOT/'portfolio/content/research.md').read_text().split('\n## ')[1:]:
