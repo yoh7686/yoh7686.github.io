@@ -18,6 +18,14 @@ Python 3.10以降の標準ライブラリで公開用Markdownから静的HTMLを
 
 各分類の一覧は日付の新しい順です。活動は `/activities/YYYY.html` に年ごとに生成され、`/activities.html` が年別の入口です。原稿605件のうち予定6件、掲載対象外の定期講義1件、未実施の活動1件を除く597件を収録しています。同一活動の可能性がある記録には注記し、実施回数として合計しません。`omit_news: true` の記録と同一性未確認の記録はNewsには出しません。
 
+## 管理範囲
+
+- 原稿と素材は `portfolio/content/` と `portfolio/assets/`。
+- 更新ツールと手順は `portfolio/build.py`、`portfolio/check.py`、`portfolio/update-activity.mjs`、`portfolio/set-contact-form.py`、`portfolio/README.md`、`portfolio/ACTIVITIES.md`、`portfolio/CONTACT.md`。
+- 公開ページは `index.html`、`profile.html`、`research.html`、`activities.html`、`works.html`、`videos.html`、`media.html`、`news.html`、`contact.html`、`404.html` と、ポートフォリオが生成する `activities/` 内の年別ページ。`sitemap.xml` も管理対象です。
+
+既存の別ページ、配布ゲーム、実験・デモは対象外です。作品からのリンク先は必要に応じて存在を確認し、内部にはポートフォリオの検証を適用しません。リポジトリから作品を自動追加せず、更新対象の差分だけを公開してください。
+
 ## 更新手順
 
 1. 公開用Markdownを編集する。
