@@ -1,5 +1,13 @@
 # media
 
+## 「好奇心を絶やさず、AIとともに未来をつくる」電気通信大学 CERECオープニングセレモニーを開催
+
+- id: media-076
+- date: 2026-10-27
+- kind: パネルレポート
+- publisher: 電気通信大学
+- url: https://www.uec.ac.jp/news/announcement/2026/20261027_8008.html
+
 ## ゲーム開発の世界を知る！専門家をお招きして特別講義を実施しました
 
 - id: media-001
