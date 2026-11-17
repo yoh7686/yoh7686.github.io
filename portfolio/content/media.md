@@ -16,6 +16,14 @@
 - publisher: 大妻女子大学 社会情報学部
 - url: https://www.sis.otsuma.ac.jp/news/design/news_4593/
 
+## 久夛良木健氏が語る、AI時代に求められる人間―電気通信大学「CEREC」オープニングセレモニーレポ
+
+- id: media-077
+- date: 2026-09-30
+- kind: パネルレポート
+- publisher: GameBusiness.jp
+- url: https://www.gamebusiness.jp/article/2026/09/30/28179.html
+
 ## う◯こを見たらガチャが回せるゲームを作って病気を啓発…？ 医療や企業の研修など、ゲームで社会を良くすることを目指す「シリアスゲーム」のイベント「東京シリアスゲームサミット」をレポート
 
 - id: media-002
