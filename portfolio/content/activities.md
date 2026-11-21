@@ -1,5 +1,20 @@
 # activities
 
+## Sanuki x Game 前夜祭
+
+- id: event-sheet-0548
+- date: 2026-11-14
+- kind: トーク
+- subtitle: 渡辺大氏（Sanuki GameN代表）とのトーク
+- omit_news: true
+
+## 明治大学 FMS特別講義
+
+- id: event-sheet-0549
+- date: 2026-11-19
+- kind: 講義
+- subtitle: デジタルゲームのナラティブ
+
 ## はこだて未来大 昼休みトーク
 
 - id: event-sheet-0545
