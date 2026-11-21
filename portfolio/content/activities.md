@@ -8,7 +8,7 @@
 - subtitle: 渡辺大氏（Sanuki GameN代表）とのトーク
 - omit_news: true
 
-## 明治大学 FMS特別講義
+## 明治大学先端メディアサイエンス学科「FMS特別講義」
 
 - id: event-sheet-0549
 - date: 2026-11-19
