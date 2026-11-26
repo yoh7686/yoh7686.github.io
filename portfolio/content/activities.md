@@ -1,5 +1,11 @@
 # activities
 
+## IPA 未踏IT人材発掘・育成事業 八合目会議（11月21日・22日）
+
+- id: event-2026-11-21-ipa-mitou-hachigome
+- date: 2026-11-21
+- kind: アドバイザー
+
 ## Sanuki x Game 前夜祭
 
 - id: event-sheet-0548
